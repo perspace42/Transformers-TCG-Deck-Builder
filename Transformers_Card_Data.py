@@ -61,6 +61,7 @@ class Transformer_Card():
         self.vehicle_health = transform_dict.get('vehicle_health', self.bot_health)
         self.vehicle_defense = transform_dict.get('vehicle_defense',self.bot_defense)
 
+        #card effect
         self.vehicle_text = transform_dict.get("vehicle_text", None)
 
         #traits are stored in a list
@@ -82,6 +83,7 @@ class Transformer_Card():
 
 #Place List of Transformer Card Test Data Here
 def Assemble_Transformer_List():
+    '''The Purpose Of This Function Is To Provide A List of Tranformer Cards For The TransformersTCG_Deck_Builder.py File.'''
     Transformer_Data = []
     #Autbots Card List Start
     Transformer_Data.append(Transformer_Card({"name":"Bumblebee",
@@ -294,6 +296,7 @@ def Assemble_Transformer_List():
 
 #Place List of Battle Card Test Data Here
 def Assemble_Battle_List():
+    '''The Purpose Of This Function Is To Provide A List of Battle Cards For The TransformersTCG_Deck_Builder.py File.'''
     Battle_Data = []
 
     #Upgrade Cards
