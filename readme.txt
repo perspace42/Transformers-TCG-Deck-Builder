@@ -1,7 +1,16 @@
-Welcome to the prototype Transformers TCG Deck Editor.
+Application Name: Transformers TCG Deck Builder
 
-In order to run the program:
+Author: Scott Field
 
-The file TransformersTCG_Deck_Builder.py is the main file and should be run to interact with the program.
-The file Transformers_Card_Data.py contains the card data and needs to be in the same directory as the main file
-The .gif image files contain the card images and must be in the same directory as the main file
+Description: This project allows the user to build a deck for the Transformers TCG using a sample set of 32 cards from that game.
+
+Technologies Used: This project uses Python with the tkinter library
+
+Installation Instructions:
+Place all of the files within the Transformers-TCG-Deck-Builder in the SAME DIRECTORY on your computer. Then run the FieldScottFinalProject.py file using the IDE (Integrated Developer Environment) of your choice.
+
+Known Bugs: There are no known bugs in this program
+
+License Information: This project is licensed under the GNU General Public License v3.0, more information on the license can be found by reading the License.txt file
+
+
